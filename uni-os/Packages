@@ -1,0 +1,651 @@
+Package: audience
+Version: 2.7.2+r1099+pkg51~ubuntu18.04.1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 1063
+Depends: xdg-utils, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libclutter-1.0-0 (>= 1.10.0), libclutter-gst-3.0-0 (>= 3.0.4), libclutter-gtk-1.0-0 (>= 0.91.8), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.16.0), libglib2.0-0 (>= 2.43.92), libgranite5 (>= 5.2.3), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.21.6), libx11-6
+Breaks: audience
+Replaces: audience
+Filename: ./audience_2.7.2+r1099+pkg51~ubuntu18.04.1_amd64.deb
+Size: 133804
+MD5sum: 262f9318eade35e6d95b84a78557e389
+SHA1: c5c1985e421860ac431ac4047de5ca0df7977a6a
+SHA256: 42329c7442ce05812021fd660f3f3e355b0d5cc9fa1483acca51124c844e1aa4
+Section: video
+Priority: optional
+Homepage: https://github.com/elementary/videos
+Description: A modern media player
+ Audience is a simple, modern media player that makes greater use of
+ hardware acceleration than most players out there.
+
+Package: blueberry
+Version: 1.4.7+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 2120
+Depends: python3, gnome-bluetooth, gir1.2-gnomebluetooth-1.0, rfkill, wmctrl, python3-setproctitle, bluez-obexd, bluez-tools, python3-dbus, gir1.2-notify-0.7, python3-gi, papirus-icon-theme
+Filename: ./blueberry_1.4.7+uni1_all.deb
+Size: 1235832
+MD5sum: 43164a1ebc184c2b01ce98d883ad1b84
+SHA1: 4bd1a38ae244bf2df4f13e2f463cbe6fd9f71233
+SHA256: 5b7a21eee1daacb4fb8ac855632bbc99555f0e82c91504c262f1e6770fe5bc87
+Section: admin
+Priority: optional
+Description: A configuration tool for Bluetooth
+ Configure Bluetooth devices.
+
+Package: clamtk
+Version: 6.03-3+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 952
+Depends: perl:any, clamav (>= 0.95), clamav-freshclam (>= 0.95) | clamav-data, libgtk3-perl, libwww-perl, liblocale-gettext-perl, libtext-csv-perl, libjson-perl, liblwp-protocol-https-perl, papirus-icon-theme, cron | cron-daemon | anacron
+Suggests: cabextract, clamtk-gnome
+Enhances: dolphin, konqueror, nemo, thunar
+Breaks: clamtk-kde, nemo-sendto-clamtk, thunar-sendto-clamtk
+Replaces: clamtk-kde, nemo-sendto-clamtk, thunar-sendto-clamtk
+Filename: ./clamtk_6.03-3+uni1_all.deb
+Size: 173336
+MD5sum: 759ad95b8ba75edde1978706ed66ee40
+SHA1: 983cc5dc4fb2fdc462224dec712fd009c0211da2
+SHA256: e5957d6d9f0331adc3eb1322325ea67da43740d8b515d1190b6f89b437baa2b9
+Section: utils
+Priority: optional
+Homepage: https://gitlab.com/dave_m/clamtk
+Description: graphical front-end for ClamAV
+ ClamTk is a graphical front-end for Clam Antivirus.
+ .
+ It is designed to be an easy-to-use, lightweight, on-demand antivirus scanner
+ for Linux systems.
+ .
+ Context menu support for KDE's Plasma Desktop (Dolphin file manager) and
+ Nemo and Thunar sendto is included.  Context menu support for GNOME (Nautilus
+ file manager), but due to additional dependencies required, it is in a
+ separate package: clamtk-gnome.
+
+Package: gdebi
+Version: 0.9.5.7+nmu5+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 169
+Depends: python3:any (>= 3.3~), gdebi-core (= 0.9.5.7+nmu5), gir1.2-gtk-3.0, gir1.2-vte-2.91, python3-gi, policykit-1, papirus-icon-theme
+Recommends: libgtk2-perl, shared-mime-info, lintian
+Filename: ./gdebi_0.9.5.7+nmu5+uni1_all.deb
+Size: 41236
+MD5sum: aab96e961faa48dd3da4a64ee45fe836
+SHA1: fdc42fe13d4d74a6c70b361cebd3c237de7798c4
+SHA256: 8818fa90c824e361fabd5b3f361f08103e667606a07a3f58544138b794965451
+Section: admin
+Priority: optional
+Description: simple tool to view and install deb files - GNOME GUI
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ The package is also scanned via lintian before the install and its
+ possible to inspect the control and data members of the packages.
+ .
+ This package contains the graphical user interface.
+
+Package: gnome-package-updater
+Source: gnome-packagekit
+Version: 3.32.0-2
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 208
+Depends: gnome-packagekit-common (>= 3.32.0-2), packagekit, libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.16.2), libpackagekit-glib2-18 (>= 0.9.4), libpolkit-gobject-1-0 (>= 0.101)
+Recommends: software-properties-gtk
+Breaks: gnome-packagekit (<< 3.32.0-4), update-notifier (<< 3.24)
+Replaces: gnome-packagekit (<< 3.32.0-4)
+Provides: update-notifier
+Filename: ./gnome-package-updater_3.32.0-2_amd64.deb
+Size: 65148
+MD5sum: 3621470e8c90b7ebd22fbfcf9531a2ca
+SHA1: 7962135140fa36414590944855a4a276c776805e
+SHA256: 5aac750cb5a412ae9f3d992f7f05f24f1f3bc3e14ea0e5c74588f190fb73fab3
+Section: gnome
+Priority: optional
+Description: Software package updater for GNOME
+ GNOME Package Updater allows you to update packages on your system without
+ rebooting. You can view details about each update and choose which updates
+ to apply.
+ .
+ The updater utility uses PackageKit for package management abstraction.
+
+Package: gnome-packagekit-common
+Source: gnome-packagekit
+Version: 3.32.0-2
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 6624
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-packagekit (<< 3.32.0-4), gnome-packagekit-data (<< 3.32.0-4)
+Replaces: gnome-packagekit (<< 3.32.0-4), gnome-packagekit-data (<< 3.32.0-4)
+Filename: ./gnome-packagekit-common_3.32.0-2_all.deb
+Size: 905520
+MD5sum: 825e190a1a3bd4b4e04d290f5bd744bd
+SHA1: 61533bc907210d7cd23d44d89c677cd1a5fea015
+SHA256: 4c99fe07463e014d392e5318c00a56e2f521a776dd7be6f6170be5667bdafae4
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Description: Common data files for GNOME PackageKit
+ PackageKit allows performing simple software management tasks over a DBus
+ interface  e.g. refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package contains common shared files for all
+ GNOME PackageKit modules.
+
+Package: grub-theme-link
+Version: 1.0
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 43
+Depends: grub-common
+Filename: ./grub-theme-link_1.0_all.deb
+Size: 16276
+MD5sum: 43a4c8d6ee32d88d7281b528f46dea0c
+SHA1: 0bfafc6581c3b215b3f84c8e69dc59fd5e8f736e
+SHA256: b6cd34f9a3d2749f9d3bc6132dab64366757147ec8ae4155a279461d81039297
+Section: admin
+Priority: optional
+Description: GRUB2 theme for uni desktop
+ Created with reference to:
+ https://launchpad.net/~zorinos/+archive/ubuntu/stable/+packages
+
+Package: im-config
+Version: 0.46-1+deb11u1+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 312
+Depends: gettext-base
+Recommends: x11-common, zenity | kdialog | kde-baseapps-bin (<< 4:16.08.3-2~) | whiptail
+Conflicts: im-switch
+Provides: im-switch
+Filename: ./im-config_0.46-1+deb11u1+uni1_all.deb
+Size: 51728
+MD5sum: a106e2fa393294d97fdffe5e927336e1
+SHA1: 1b33b11d5e0323bf7b3535c71823e89cdde497ed
+SHA256: a3c8672e912fb0e998f2b8375e851a96787a4806719cbf4f2571eb5dbbed9b0e
+Section: x11
+Priority: optional
+Homepage: https://salsa.debian.org/input-method-team/im-config
+Description: Input method configuration framework
+ im-config package provides the framework to configure and to switch
+ the input method. This input method is the essential mechanism for
+ Japanese, Chinese and Korean (CJK) languages to enter their non-ASCII
+ native characters.
+ .
+ Many modern input methods such as IBus support not only one of these CJK
+ languages but support almost all languages simultaneously by
+ dynamically switching keyboard modes with GUI helper program.
+ .
+ By installing this package, the most desirable input method and its
+ backend conversion engine are automatically configured with both the X
+ Window System Input Method (XIM), GTK input method module, Qt input
+ method module, and clutter input method module.
+ .
+ You can further customize your input method with 'im-config' command.
+
+Package: jgmenu
+Version: 4.4.0-1+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 551
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libmenu-cache3 (>= 1.1.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.14.4), libx11-6, libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), python3:any
+Suggests: lxmenu-data
+Filename: ./jgmenu_4.4.0-1+uni1_amd64.deb
+Size: 129588
+MD5sum: e48a70ee2ccc020f90f13469638621ca
+SHA1: 026f02606bafb923c83653e2774fcc473f8b39de
+SHA256: edd4f0f41d4e4af610407949088e5f167f6df8daf74a6bd7dd4be0a3cc14e137
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://jgmenu.github.io/
+Description: Simple X11 menu
+ A stand-alone, contemporary-looking menu application for Linux and BSD.
+ Independent of window manager and panel. Designed for customisation,
+ scripting, ricing and tweaking
+
+Package: jgmenu-theme-link
+Version: 0.9
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: jgmenu, papirus-icon-theme, procps
+Recommends: uni-desktop-jwm, tint2-theme-link
+Filename: ./jgmenu-theme-link_0.9_all.deb
+Size: 3524
+MD5sum: 9e5e847b72801299d1e3dff462156c9c
+SHA1: 63f3b55af6d037b0c8a210ca4ecb76eb806f4089
+SHA256: 7a429ec4951d5144c83c329bd4b022df83c27ce004371eafa50479f7a969ddd3
+Section: unknown
+Priority: optional
+Description: jgmenu theme for uni desktop
+
+Package: jwm
+Version: 2.3.7-5+deb11u1+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 522
+Depends: rxvt-unicode-256color | rxvt-unicode | rxvt-unicode-lite | gnome-terminal | konsole | x-terminal-emulator, libc6 (>= 2.15), libcairo2 (>= 1.6.0), libfribidi0 (>= 0.19.2), libglib2.0-0 (>= 2.12.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.14.4), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxmu6, libxpm4, libxrender1
+Recommends: menu
+Suggests: x11-apps
+Provides: x-window-manager
+Filename: ./jwm_2.3.7-5+deb11u1+uni1_amd64.deb
+Size: 239440
+MD5sum: ea4c9f3c704c1ea154ffb3d13335d201
+SHA1: bba529551e29bfcd23ae2d7ce735bf997ebdf4ac
+SHA256: 672c41e84fcfb34dd3b7754f1a0124aa19c46947be87a01dea8f50358ca37ac7
+Section: x11
+Priority: optional
+Homepage: https://joewing.net/projects/jwm/
+Description: very small lightweight pure X11 window manager with tray and menus
+ Low resource Window manager ideal for older PCs. It uses a minimum of
+ external libraries, thus very little memory, includes virtual screens,
+ menubar and root-menu popup.
+ .
+ JWM is a window manager for the X11 Window System. JWM is written in
+ C and uses only Xlib and (optionally) the shape extension and libXpm.
+ It can support some MWM, GNOME, and WM Spec hints. The menu configuration
+ files are managed in XML format.
+ .
+ Compared to other light WM, like FVWM or Openbox, the Jwm consumes
+ considerably less memory while providing the same functionality.
+
+Package: l3afpad
+Version: 0.8.18.1.11-3+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 500
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.4.10), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.2.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./l3afpad_0.8.18.1.11-3+uni1_amd64.deb
+Size: 148932
+MD5sum: d250db7485188bcd4c0cdd55cd8be979
+SHA1: 2ade4bae6b8055f8cc27e356aff4ed0492ed3752
+SHA256: fa20eb02598396d30b9aa93f7c44af81de5c24c791a8186c1c3eecad12bbaab5
+Section: editors
+Priority: optional
+Homepage: https://github.com/stevenhoneyman/l3afpad
+Description: Simple text editor forked from Leafpad
+ simple GTK+ text editor that emphasizes simplicity. As development
+ focuses on keeping weight down to a minimum, only the most essential features
+ are implemented in the editor. L3afpad is simple to use, is easily compiled,
+ requires few libraries, and starts up quickly.
+
+Package: mint-translations
+Version: 2022.12.16+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 6386
+Filename: ./mint-translations_2022.12.16+uni1_all.deb
+Size: 834668
+MD5sum: 87cd4a1663f4662de689433546e9612b
+SHA1: 39cf9ec984032ba1fc995edbe84a835ac3e73f90
+SHA256: 2a88d88c41c16685d88e28592f56d991a66853fc1370524a6e515709bf3ce8c6
+Section: admin
+Priority: optional
+Description: Translation files for Linux Mint
+ Translation files for Linux Mint
+
+Package: mintstick
+Version: 1.5.6+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 271
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Filename: ./mintstick_1.5.6+uni1_all.deb
+Size: 49808
+MD5sum: 04568b7e8815e90b94e6499aabc7f96c
+SHA1: 9967b8d864568e5ec47f59a89e22d6c1be043b66
+SHA256: a244de7e6b9dceeba5fc5cb74e786427cb275b719a726b8090bac97ad94d9ffe
+Section: misc
+Priority: optional
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: p7zip
+Version: 16.02+dfsg-8build0ppa7
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 987
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Suggests: p7zip-full
+Filename: ./p7zip_16.02+dfsg-8build0ppa7_amd64.deb
+Size: 381224
+MD5sum: 6375a00356316797c77a9616da9c7fb4
+SHA1: c1094ad3a0c0b3aae87ea0c7c19a608db07a65f8
+SHA256: c73e4db14cbfac7cbae601153bed315b70d1e580531563f4d17fa19697944f86
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://p7zip.sourceforge.net/
+Description: 7zr file archiver with high compression ratio
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that
+ handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides:
+  - /usr/bin/7zr
+    a standalone minimal version of the 7-zip tool that only handles
+    7z, LZMA and XZ archives. 7z compression is 30-50% better than ZIP
+    compression.
+  - /usr/bin/p7zip
+    a gzip-like wrapper around 7zr.
+ .
+ p7zip can be used with popular compression interfaces (such as File
+ Roller or Nautilus).
+ .
+ Another package, p7zip-full, provides 7z and 7za which support more
+ compression formats.
+
+Package: p7zip-full
+Source: p7zip
+Version: 16.02+dfsg-8build0ppa7
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 4684
+Depends: p7zip (= 16.02+dfsg-8build0ppa7), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Suggests: p7zip-rar
+Breaks: p7zip (<< 15.09+dfsg-3~)
+Replaces: p7zip (<< 15.09+dfsg-3~)
+Filename: ./p7zip-full_16.02+dfsg-8build0ppa7_amd64.deb
+Size: 1184964
+MD5sum: e26041e31fa75d43a2853d1acd05331f
+SHA1: 1c9be77c98cb6e020220843240452673228e96ec
+SHA256: 528873fb3d71ef256d9e0cffa6ecb85e2fffc981ae7df2edfc0c90f16d508a3b
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://p7zip.sourceforge.net/
+Description: 7z and 7za file archivers with high compression ratio
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that
+ handles the 7z format which features very high compression ratios.
+ .
+ p7zip-full provides utilities to pack and unpack 7z archives within
+ a shell or using a GUI (such as Ark, File Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z
+ compression format for packing and unpacking files and directories.
+ Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+   - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+   - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+     HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RAR (only
+     if non-free p7zip-rar package is installed), RPM, SquashFS, UDF,
+     VHD, WIM, XAR and Z.
+ .
+ The dependent package, p7zip, provides 7zr, a light version of 7za,
+ and p7zip, a gzip-like wrapper around 7zr.
+
+Package: package-update-indicator
+Version: 7-1+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 160
+Depends: packagekit (>= 1.1.8), dconf-gsettings-backend | gsettings-backend, libayatana-appindicator3-1 (>= 0.4.90), libc6 (>= 2.4), libglib2.0-0 (>= 2.41.2), libgtk-3-0 (>= 3.9.10), libpackagekit-glib2-18 (>= 0.9.4), libpolkit-gobject-1-0 (>= 0.99), libupower-glib3 (>= 0.99.0)
+Recommends: gnome-packagekit
+Filename: ./package-update-indicator_7-1+uni1_amd64.deb
+Size: 36324
+MD5sum: 7b4758589ddbe0bb919ae24a97f3d5c4
+SHA1: 5a4153813548ed7ced952d881617111e7f974d8a
+SHA256: 990bd8562ae81593d936e4464ae5597dd52c442c6f6bf574eff95e09a56a8ae1
+Section: gnome
+Priority: optional
+Homepage: https://code.guido-berhoerster.org/projects/package-update-indicator/
+Description: Notify about available software updates
+ This small utility which regularly checks for software updates and notifies
+ the user about available updates using desktop notifications and either
+ a status notifier icon or a system tray icon.
+ .
+ It is primarily intended for desktops which do not already have this
+ functionality built-in, such as Xfce.
+
+Package: pantheon-calculator
+Version: 1.6.0+r781+pkg35~ubuntu5.1.7.1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 487
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.29), libglib2.0-0 (>= 2.37.3), libgranite5 (>= 5.4.0), libgtk-3-0 (>= 3.22.29)
+Filename: ./pantheon-calculator_1.6.0+r781+pkg35~ubuntu5.1.7.1_amd64.deb
+Size: 65992
+MD5sum: 5e40c874164a1398ceeecea81a01c951
+SHA1: a39e17b0671c9173f45522042dbe75b6c3c78bd5
+SHA256: 39b1f53ddd32e9941b25b43b66e26d0348ecb0ad651c4142562863a8ab8979ff
+Section: x11
+Priority: extra
+Homepage: https://github.com/elementary/calculator
+Description: Calculate in an elementary way.
+
+Package: plymouth-theme-link
+Version: 1.0
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 112
+Depends: plymouth, plymouth-label
+Provides: plymouth-theme
+Filename: ./plymouth-theme-link_1.0_all.deb
+Size: 40896
+MD5sum: b603d91f8b0110135a60acc00441873d
+SHA1: b39d23ce16bb42cbb8e8a0d5b0fd15a8867372a0
+SHA256: 9f75959319385e2897d07aa5f84a34a5c64e668e217022443213e85d9f07679a
+Section: misc
+Priority: optional
+Description: Plymouth theme for uni desktop
+ Created with reference to:
+ https://salsa.debian.org/Mobian-team/plymouth-theme-mobian
+ https://salsa.debian.org/qt-kde-team/kde/breeze-plymouth
+
+Package: qt5ct
+Source: qt5ct (1.1-1)
+Version: 1.1-1+b2+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 841
+Depends: libqt5svg5, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.9~), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Suggests: qt5-style-plugins
+Filename: ./qt5ct_1.1-1+b2+uni1_amd64.deb
+Size: 186504
+MD5sum: 69aa0644b894173d8a671cad037f7963
+SHA1: 2930abd982f25467eb8f9e853542bf50a3750244
+SHA256: 86df7ef3c4561b01af3397acf012022757808ce3cf8cae9f88881339644ff695
+Section: utils
+Priority: optional
+Homepage: https://sourceforge.net/projects/qt5ct/
+Description: Qt5 Configuration Utility
+ This utility allows users to configure Qt5 settings (theme, font,
+ icons, etc.) under DE/WM without Qt integration.
+ .
+ Qt5ct will only be active on environments other than Plasma.
+ Default configuration have switch to disable running on Plasma.
+ .
+ Qt5ct could use qt5 gtk theme, KDE breeze theme, the fusion theme,
+ QtCurve theme and many more. Each style could be customized further
+ by changing the color schema.
+
+Package: screenfetch
+Version: 3.9.1-2+uni1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 265
+Depends: procps, bc, pciutils
+Recommends: scrot
+Filename: ./screenfetch_3.9.1-2+uni1_all.deb
+Size: 62368
+MD5sum: b1ebcdecfc27230b9958a138fcc9a7eb
+SHA1: 4f37dd848039492d6ca82202b2be405defcb541c
+SHA256: e11fba905a78ee0796bcc0ef93bd9ef6823f9887ef647fe09ddab534324ee874
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/KittyKatt/screenFetch
+Description: Bash Screenshot Information Tool
+ screenFetch is a "Bash Screenshot Information Tool". This handy Bash script
+ can be used to generate one of those nifty terminal theme information + ASCII
+ distribution logos you see in everyone's screenshots nowadays.
+ .
+ It will auto-detect your distribution and display an ASCII version of that
+ distribution's logo and some valuable information to the right. There are
+ options to specify no ascii art, colors, taking a screenshot upon displaying
+ info, and even customizing the screenshot command.
+
+Package: tint2
+Version: 16.7-1+uni1
+Architecture: amd64
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Installed-Size: 1528
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.14.0), libimlib2 (>= 1.4.5), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.22.0), librsvg2-2 (>= 2.14.4), libstartup-notification0 (>= 0.4), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxinerama1, libxrandr2 (>= 2:1.2.99.3), libxrender1
+Filename: ./tint2_16.7-1+uni1_amd64.deb
+Size: 411124
+MD5sum: abc3afc6f9bbdcf6f0a36d1d9cd459d3
+SHA1: 02b791c67e11986d9a1f5328bb03241fd1eb23a0
+SHA256: 2a080bcd150515d62bb7991b6ca084b76847a103c5afa917306b038a70affb2c
+Section: x11
+Priority: optional
+Homepage: https://gitlab.com/o9000/tint2/
+Description: lightweight taskbar
+ Tint is a simple panel/taskbar intentionally made for openbox3, but should
+ also work with other window managers. The taskbar includes transparency and
+ color settings for the font, icons, border, and background. It also supports
+ multihead setups, customized mouse actions, and a built-in clock. Tint was
+ originally based on ttm code. Since then, support has also been added
+ for a battery monitor and system tray.
+ .
+ The goal is to keep a clean and unintrusive look with lightweight code and
+ compliance with freedesktop specification.
+
+Package: tint2-theme-link
+Version: 0.9
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: tint2, fonts-noto, papirus-icon-theme, jgmenu-theme-link, uni-session, xdotool, procps, sysvinit-utils, wmctrl, zenity, pulseaudio, alsa-utils, bc, light, acpi, redshift, gsimplecal
+Recommends: uni-control-center, pcmanfm, firefox-esr, uni-desktop-jwm
+Filename: ./tint2-theme-link_0.9_all.deb
+Size: 16180
+MD5sum: 86914c34125205cf0fbe54eb40628016
+SHA1: 7f99884ec4b4d7a9966a18546eb0464be49f5fc1
+SHA256: 5da5ecdce281f694b8407fa98d95fc5e4e116b6f51a462facc55a630f00aa9d2
+Section: unknown
+Priority: optional
+Description: tint2 theme for uni desktop
+ Created with reference to:
+ https://github.com/nwg-piotr/tint2-executors
+
+Package: uni-control-center
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: zenity, papirus-icon-theme, network-manager-gnome, blueberry, lxinput, lxrandr, slick-greeter, gufw, clamtk
+Filename: ./uni-control-center_0.8_all.deb
+Size: 2392
+MD5sum: 9ffa0ae7c3cf471e7ea7edf36705238f
+SHA1: 172ef1b727c31764b8eeb3832112592a220b0eef
+SHA256: d1a7691596955206e6a4bc73d270b972b6ca054f043fc306c4e5d55dbd9e1e11
+Section: unknown
+Priority: optional
+Description: uni desktop setting center
+
+Package: uni-desktop
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: grub-theme-link, plymouth-theme-link, xserver-xorg, slick-greeter, tint2-theme-link, jgmenu-theme-link, uni-control-center, uni-desktop-config, uni-desktop-jwm, uni-session, uni-wallpapers, xfce4-notifyd, audience, evince, gdebi, gparted, l3afpad, lxmusic, lxtask, lxterminal, mintstick, mint-translations, pantheon-calculator, pcmanfm, file-roller, firefox-esr
+Filename: ./uni-desktop_0.8_all.deb
+Size: 1756
+MD5sum: 923c924c5f3082876438bbea6b967f53
+SHA1: 822736ba643aa6eda6e715b891b14e43bdc9d524
+SHA256: 5103572c4d228934dfbf6ed4a6fff0856c293da998a452517209adb51b41911a
+Section: unknown
+Priority: optional
+Description: Metapackage for uni desktop environment
+
+Package: uni-desktop-config
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: fonts-noto, arc-theme, papirus-icon-theme, adwaita-icon-theme, qt5ct, qt5-gtk2-platformtheme
+Recommends: l3afpad, lxterminal, viewnior
+Filename: ./uni-desktop-config_0.8_all.deb
+Size: 3596
+MD5sum: f1e7b43b3985a3d6331e534db5b7751f
+SHA1: 5048293a3c6f8f63fe3951620081e4f140976267
+SHA256: faa709ecd45ba83feec7a4b9cb93fbeb59789a56b74b7afef10aa376ad6b819d
+Section: unknown
+Priority: optional
+Description: Default configuration for uni desktop
+
+Package: uni-desktop-jwm
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: jwm, tint2-theme-link, jgmenu-theme-link, xdg-user-dirs, pcmanfm, file-roller, uni-wallpapers, blueberry, network-manager-gnome, diodon, package-update-indicator, gnome-package-updater, policykit-1-gnome, xfce4-notifyd, xcape, scrot, uni-control-center, lxterminal, lxtask, uni-session
+Filename: ./uni-desktop-jwm_0.8_all.deb
+Size: 4660
+MD5sum: 6bf8083457b56ec0557dd12a95661f9f
+SHA1: 0d54995e2d8a4b2ccd12a17612d50d0fa98eb144
+SHA256: 39a613caec144f24015d9f2a88e052211b9a505441c5a2f0300cf2b1935886f4
+Section: unknown
+Priority: optional
+Description: JWM configuration for uni desktop
+ Created with reference to:
+ https://github.com/horst3180/arc-theme
+ https://gitlab.com/fedemp/jwm-arc-daker
+
+Package: uni-desktop-l10n-ja
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: uni-desktop-jwm, manpages-ja, manpages-ja-dev, firefox-esr-l10n-ja, ibus-kkc
+Filename: ./uni-desktop-l10n-ja_0.8_all.deb
+Size: 1828
+MD5sum: 2d1bca80b718ab295dcce99872473326
+SHA1: 8f151693f7b3d582073821a658556b6c91f07340
+SHA256: 5c6005dd4475877b4cdf10ffb2e198b7b5a6125aa09259f6f62bc8b7fd1ee099
+Section: unknown
+Priority: optional
+Description: Japanese localization for uni desktop.
+
+Package: uni-os-release
+Version: 0.1
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: grub2-common
+Filename: ./uni-os-release_0.1_all.deb
+Size: 1668
+MD5sum: 11b68f924edc976440e0c69a6f165c87
+SHA1: 36862cc4b62a7209ab76be083493f81a4c85b4fc
+SHA256: a6da1b19ab9f57ad0d2666a0209e0a8d1c1c59150e05ff88488b0cd4274598f9
+Section: unknown
+Priority: optional
+Description: Configurate uni-os release version.
+
+Package: uni-session
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: zenity, lxtask, jwm, papirus-icon-theme
+Filename: ./uni-session_0.8_all.deb
+Size: 2048
+MD5sum: e8368c86af0dc34c59676a848c7ba918
+SHA1: e9a44eb4abbf37db981779ba0355e42b0b6745fa
+SHA256: c630cba7d28b59da7a90b53b23c43c53f1ab0364096bf198b9fb246a74154154
+Section: unknown
+Priority: optional
+Description: uni desktop session manager
+
+Package: uni-wallpapers
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Filename: ./uni-wallpapers_0.8_all.deb
+Size: 7524
+MD5sum: 79703399da7a07527c3509909bf3dce0
+SHA1: b5280e2917e0f3d679b03f6ef80eb491e8b71f43
+SHA256: 2b20da4b24dd4ef19d7c6f82d3ff80a0a1991c918873b2c9b4fdedf1e641747f
+Section: unknown
+Priority: optional
+Description: Wallpapers for uni desktop
+
